@@ -3,6 +3,8 @@
     "module": "esnext",
     "target": "ES2018",
     "declaration": true,
+    "isolatedDeclarations": true,
+    "rootDir": "./src",
     "outDir": "./dist",
 
     // Recommended Options
