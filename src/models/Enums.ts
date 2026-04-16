@@ -15,3 +15,8 @@ export enum Zone {
 	Sideboard,
 	CommandZone,
 }
+
+export enum CardType {
+	Normal,
+	Token,
+}

@@ -1,5 +1,5 @@
 export { Card, CardFace, CreatureCardFace, PointCardFace } from "./models/Card";
-export { DeckFormat, Zone } from "./models/Enums";
+export { DeckFormat, Zone, CardType } from "./models/Enums";
 
 export { ICard, ICardFace } from "./models/interface/ICard";
 export { IDeck } from "./models/interface/IDeck";
