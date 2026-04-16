@@ -4,7 +4,6 @@ import { ICard } from "./ICard";
 export type ICardState = {
 	[key: string]: any; // let to search for any key when looping with [for ... of] Object loop
 	id?: string;
-	type: CardType;
 	isFrontFaceSide?: boolean; // Useful only if the current card as multiple face
 	isFrontSide?: boolean;
 	sleeveColor?: string;
@@ -16,4 +15,5 @@ export type ICardState = {
 export type ICardData = {
 	card: ICard;
 	state: ICardState;
+	type: CardType;
 };
