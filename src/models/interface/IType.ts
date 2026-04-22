@@ -16,4 +16,5 @@ export type ICardData = {
 	card: ICard;
 	state: ICardState;
 	type: CardType;
+	timestamp: number;
 };
