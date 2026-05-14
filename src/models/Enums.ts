@@ -5,18 +5,16 @@ export enum DeckFormat {
 	Modern,
 }
 
-// Check about Keyword counter
-export enum CounterType {
-	//#region Counter on Players
-
+export enum PlayerCounterType {
 	Experience,
 	Energy,
 	Poison,
 	Rad,
+}
 
-	//#endregion
-
-	//#region Counter on permanents
+// Check about Keyword counter
+export enum CardCounterType {
+	//#region Battlefield counter
 
 	/**
 	 * Act like default counter, POWER/TOUGHNESS for creature, Loyalty for planeswalker, Defense for battle

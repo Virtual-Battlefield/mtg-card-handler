@@ -1,5 +1,10 @@
-import { CardType, Zone } from "../Enums";
+import { CardCounterType, CardType, Zone } from "../Enums";
 import { ICard } from "./ICard";
+
+type CountersList = {
+	type: CardCounterType;
+	nb: number;
+};
 
 export type ICardState = {
 	[key: string]: any; // let to search for any key when looping with [for ... of] Object loop
@@ -9,6 +14,7 @@ export type ICardState = {
 	visibleArrow?: boolean;
 	zone?: Zone;
 	isTapped?: boolean;
+	countersList: CountersList[];
 };
 
 export type ICardData = {
