@@ -1,7 +1,7 @@
 import { CardCounterType, CardType, Zone } from "../Enums";
 import { ICard } from "./ICard";
 
-type CountersList = {
+export type CountersList = {
 	type: CardCounterType;
 	nb: number;
 };
