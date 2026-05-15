@@ -14,7 +14,7 @@ export type ICardState = {
 	visibleArrow?: boolean;
 	zone?: Zone;
 	isTapped?: boolean;
-	countersList: CountersList[];
+	countersList?: CountersList[];
 };
 
 export type ICardData = {
